@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { checkRewards } from '../controllers/gameController';
+import { checkRewards, getLeaderboard } from '../controllers/gameController';
 import { verifyToken } from '../middleware/authMiddleware';
 
 const router = Router();
@@ -13,5 +13,13 @@ router.use(verifyToken);
  * @access Private
  */
 router.post('/check-rewards', checkRewards);
+
+/**
+ * @route GET /api/game/leaderboard
+ * @description Retrieves the top 10 users for the leaderboard.
+ * @access Private
+ */
+router.get('/leaderboard', getLeaderboard);
+
 
 export { router as gameRoutes };

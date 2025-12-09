@@ -71,3 +71,29 @@ export const checkRewards = async (req: Request, res: Response) => {
         res.status(500).json({ error: 'Failed to update user rewards.' });
     }
 };
+
+export const getLeaderboard = async (req: Request, res: Response) => {
+    try {
+        const usersRef = firestore.collection('users');
+        const snapshot = await usersRef.orderBy('points', 'desc').limit(10).get();
+
+        if (snapshot.empty) {
+            return res.status(404).json({ message: 'No users found for leaderboard.' });
+        }
+
+        const leaderboard = snapshot.docs.map(doc => {
+            const { name, points, avatarUrl } = doc.data();
+            return {
+                id: doc.id,
+                name,
+                points,
+                avatarUrl,
+            };
+        });
+
+        res.status(200).json(leaderboard);
+    } catch (error) {
+        console.error('Error getting leaderboard:', error);
+        res.status(500).json({ error: 'Failed to retrieve leaderboard.' });
+    }
+};
