@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { adminRoutes } from './routes/adminRoutes';
+import { mapRoutes } from './routes/mapRoutes';
+import { missionRoutes } from './routes/missionRoutes';
 
 dotenv.config();
 
@@ -18,6 +20,9 @@ app.get('/api', (req, res) => {
 });
 
 app.use('/api/admin', adminRoutes);
+app.use('/api/map', mapRoutes);
+app.use('/api/missions', missionRoutes);
+
 
 // Start Server
 app.listen(port, () => {
