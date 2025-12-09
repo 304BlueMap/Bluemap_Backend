@@ -1,4 +1,5 @@
 {
+  
   "name": "bluemap-backend",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,7 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    
+
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

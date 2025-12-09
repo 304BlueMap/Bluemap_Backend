@@ -42,4 +42,4 @@ This is the dedicated **Node.js + Express Backend** for the BlueMap Guardians Pl
 
 ### 8. Admin Panel Module
 - **Endpoints:** `/api/admin/users`
-- **Security:** Protected by **RBAC (Role-Based Access Control)** middleware. Only admins can access.
+- **Security:** Protected by **RBAC (Role-Based Access Control)** middleware. Only admins can access.1

@@ -16,9 +16,7 @@ try {
         console.error("The GOOGLE_APPLICATION_CREDENTIALS environment variable is not set. The application will not function correctly without it.");
     }
 }
-git add .
-git commit -m "1209"
-git push
+
 
 export const firestore = admin.firestore();
 export const auth = admin.auth();
