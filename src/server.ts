@@ -5,6 +5,9 @@ import { adminRoutes } from './routes/adminRoutes';
 import { mapRoutes } from './routes/mapRoutes';
 import { missionRoutes } from './routes/missionRoutes';
 import { aiRoutes } from './routes/aiRoutes';
+import { gameRoutes } from './routes/gameRoutes';
+import { learnRoutes } from './routes/learnRoutes';
+import { analyticsRoutes } from './routes/analyticsRoutes';
 
 dotenv.config();
 
@@ -24,6 +27,9 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/map', mapRoutes);
 app.use('/api/missions', missionRoutes);
 app.use('/api/ai', aiRoutes);
+app.use('/api/game', gameRoutes);
+app.use('/api/learn', learnRoutes);
+app.use('/api/analytics', analyticsRoutes);
 
 
 // Start Server
