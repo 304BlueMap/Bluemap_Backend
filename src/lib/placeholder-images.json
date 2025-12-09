@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "mission-1",
+      "description": "A vibrant coral reef teeming with fish.",
+      "imageUrl": "https://images.unsplash.com/photo-1682687981907-170c006e3744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb3JhbCUyMHJlZWZ8ZW58MHx8fHwxNzY1MTg4MjYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coral reef"
+    },
+    {
+      "id": "mission-2",
+      "description": "A team of volunteers cleaning up a beach.",
+      "imageUrl": "https://images.unsplash.com/photo-1617953141905-b27fb1f17d88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiZWFjaCUyMGNsZWFudXB8ZW58MHx8fHwxNzY1MjEzNzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach cleanup"
+    },
+    {
+      "id": "mission-3",
+      "description": "A close-up shot of a sea turtle swimming.",
+      "imageUrl": "https://images.unsplash.com/photo-1591025207163-942350e47db2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZWElMjB0dXJ0bGV8ZW58MHx8fHwxNzY1MTgzNzM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sea turtle"
+    },
+    {
+      "id": "mission-4",
+      "description": "A diver observing marine life.",
+      "imageUrl": "https://images.unsplash.com/photo-1758968394626-a12881531c5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkaXZlciUyMHVuZGVyd2F0ZXJ8ZW58MHx8fHwxNzY1MjU4Mjk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "diver underwater"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Avatar for user Alex.",
+      "imageUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY1MTc0MTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Avatar for user Maria.",
+      "imageUrl": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY1MTUzODk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "submission-1",
+      "description": "User submission photo of a clownfish.",
+      "imageUrl": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbG93biUyMGZpc2h8ZW58MHx8fHwxNzY1MjU4Mjk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clown fish"
+    },
+    {
+      "id": "submission-2",
+      "description": "User submission photo of a plastic bottle on the seafloor.",
+      "imageUrl": "https://images.unsplash.com/photo-1616118132534-381148898bb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwbGFzdGljJTIwYm90dGxlfGVufDB8fHx8MTc2NTE4NDA4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plastic bottle"
+    }
+  ]
 }
