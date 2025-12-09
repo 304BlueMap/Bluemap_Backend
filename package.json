@@ -1,12 +1,11 @@
 {
-  "name": "nextn",
+  "name": "bluemap-backend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
