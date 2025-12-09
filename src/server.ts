@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import { adminRoutes } from './routes/adminRoutes';
 import { mapRoutes } from './routes/mapRoutes';
 import { missionRoutes } from './routes/missionRoutes';
+import { aiRoutes } from './routes/aiRoutes';
 
 dotenv.config();
 
@@ -22,6 +23,7 @@ app.get('/api', (req, res) => {
 app.use('/api/admin', adminRoutes);
 app.use('/api/map', mapRoutes);
 app.use('/api/missions', missionRoutes);
+app.use('/api/ai', aiRoutes);
 
 
 // Start Server
